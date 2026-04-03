@@ -6,9 +6,9 @@ int main() {
 
     printf("%d\n", x);
 
-    int *const ptr = &x;  // 포인터 고정
+    int *const ptr = &x; 
 
-    *ptr = y;  // 값 변경 (x = 20)
+    *ptr = y;  
 
     printf("%d\n", x);
 
